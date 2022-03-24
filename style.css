@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color:white;
+}
+.flex{
+    display: flex;
+}
+.main1{
+    margin: 20px 60px;
+    width: 350px;
+    height: 350px;
+    background-color: rgba(193, 225, 226, 0.39);
+    border: rgba(103, 146, 216, 0.356) 2px solid;
+}
+.discount{
+    background-color: red;
+    width: 40px;
+    padding: 4px;
+    margin-top: 30px;
+}
+.icons{
+    position: absolute;
+    margin-left: 300px;
+}
+.icons > i {
+    padding: 5px;
+    border: 1px rgba(0, 0, 0, 0.336) solid;
+   background-color:white;
+}
+#eye{
+    width: 16px;
+}
+#cart{
+    width: 16px;
+}
+.icons > i:hover{
+    color: white;
+    background-color: rgb(0, 0, 0);
+}
+#hover:hover{
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.513);
+    border-radius: 10px;
+    transition:0.7s;
+}
+.cap > img{
+    width: 100%;
+    margin-left: -20px;
+}
+.oldprice {
+    text-decoration: line-through;
+    color: rgba(0, 0, 0, 0.582);
+
+}
+.nowprice{
+    color: red;
+}
+.details1{
+    margin-left: 60px;
+    margin-bottom: 0;
+    
+}
+h5{
+    margin-left: 60px;
+    margin-top:0;
+    padding-top: 0;
+    color: rgb(0, 0, 0);
+    font-family: 'Poppins', sans-serif;;
+}
+#powderMargin{
+    width: 400px;
+}
+
+
+
